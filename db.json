@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jiří",
+      "color": "#38b2ac"
+    },
+    {
+      "id": "2",
+      "name": "Honza",
+      "color": "#ed8936"
+    },
+    {
+      "id": "3",
+      "name": "Vítězslav",
+      "color": "#84cc16"
+    },
+    {
+      "id": "4",
+      "name": "Adéla",
+      "color": "#ed64a6"
+    },
+    {
+      "id": "5",
+      "name": "Kuba",
+      "color": "#5a67d8"
+    },
+    {
+      "id": "6",
+      "name": "Eliška",
+      "color": "#9f7aea"
+    },
+    {
+      "id": "7",
+      "name": "Martin",
+      "color": "#f56565"
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "payment_user_id": "1",
+      "paid_for_users": [
+        "2",
+        "3"
+      ],
+      "amount": 200,
+      "category": "Groceries",
+      "description": "Weekly groceries",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2",
+      "payment_user_id": "2",
+      "paid_for_users": [
+        "1",
+        "3"
+      ],
+      "amount": 300,
+      "category": "Utilities",
+      "description": "Internet",
+      "date": "2026-09-25"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "task_user_id": "5",
+      "category": "other",
+      "priority": "low",
+      "description": "Vynesení tříděného odpadu",
+      "state": "done",
+      "date": "2026-09-28",
+      "completion_date": "2026-09-28"
+    },
+    {
+      "id": "2",
+      "task_user_id": "4",
+      "category": "cleaning",
+      "priority": "medium",
+      "description": "Úklid koupelny a zrcadel",
+      "state": "done",
+      "date": "2026-09-28",
+      "completion_date": "2026-09-28"
+    },
+    {
+      "id": "3",
+      "task_user_id": "2",
+      "category": "groceries",
+      "priority": "low",
+      "description": "Dokoupit pečivo a mléko",
+      "state": "done",
+      "date": "2026-09-29",
+      "completion_date": "2026-09-29"
+    },
+    {
+      "id": "4",
+      "task_user_id": "1",
+      "category": "cleaning",
+      "priority": "high",
+      "description": "Vyluxovat obývák a chodbu",
+      "state": "ongoing",
+      "date": "2026-09-30",
+      "completion_date": null
+    },
+    {
+      "id": "5",
+      "task_user_id": "6",
+      "category": "laundry",
+      "priority": "medium",
+      "description": "Vyprat a pověsit ručníky",
+      "state": "ongoing",
+      "date": "2026-09-30",
+      "completion_date": null
+    },
+    {
+      "id": "6",
+      "task_user_id": "7",
+      "category": "kitchen",
+      "priority": "high",
+      "description": "Uklidit kuchyňskou linku",
+      "state": "ongoing",
+      "date": "2026-09-30",
+      "completion_date": null
+    },
+    {
+      "id": "7",
+      "task_user_id": "3",
+      "category": "other",
+      "priority": "high",
+      "description": "Zaplatit popelnice",
+      "state": "ongoing",
+      "date": "2026-10-01",
+      "completion_date": null
+    },
+    {
+      "id": "8",
+      "task_user_id": "2",
+      "category": "groceries",
+      "priority": "high",
+      "description": "Velký nákup na víkend",
+      "state": "ongoing",
+      "date": "2026-10-02",
+      "completion_date": null
+    },
+    {
+      "id": "9",
+      "task_user_id": "4",
+      "category": "kitchen",
+      "priority": "medium",
+      "description": "Vyčistit filtr v myčce",
+      "state": "ongoing",
+      "date": "2026-10-02",
+      "completion_date": null
+    },
+    {
+      "id": "10",
+      "task_user_id": "5",
+      "category": "cleaning",
+      "priority": "medium",
+      "description": "Vytřít všechny podlahy",
+      "state": "ongoing",
+      "date": "2026-10-03",
+      "completion_date": null
+    },
+    {
+      "id": "11",
+      "task_user_id": "1",
+      "category": "laundry",
+      "priority": "low",
+      "description": "Vyprat povlečení",
+      "state": "ongoing",
+      "date": "2026-10-04",
+      "completion_date": null
+    }
+  ]
+}
